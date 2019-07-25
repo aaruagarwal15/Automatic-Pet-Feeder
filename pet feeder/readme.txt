@@ -1,9 +1,27 @@
-Through this project we want to make human life a little bit more easier. This project works on human instruction. Whenever user will give a command through the webpage to the development board used in the project, the pet feeder will be able to provide food and water to the pet after detecting that the pet had arrived at that particular area. The pet will arrive at that area when a particular noise will be made through buzzer in prior with user’s command through webpage. 
+Through this project we want to make human life a little bit more easier. This project works on human instruction. Whenever 
+
+user will give a command through the webpage to the development board used in the project, the pet feeder will be able to 
+
+provide food and water to the pet after detecting that the pet had arrived at that particular area. The pet will arrive at 
+
+that area when a particular noise will be made through buzzer in prior with user’s command through webpage. 
 
 
 WORKING OF THE PROJECT
 
-    In the specific project, we set the feeder to start beeping when the microcontroller used in the project ,i.e., Arduino Uno receives signal through the webpage. The instruction is given by the user through the webpage. The internet connection is provided to the project through Arduino Uno which is attached to the Ethernet shield. The Ethernet shield is connected to the laptop through LAN(Local Area Network) wire. The pet will receive instruction as soon as the buzzer beeps on the command of the user.  Once the pet comes closer to the device, the ultrasonic sensor measures the distance of the pet from the sensor and when the pet comes at the suitable distance both servo motors are triggered ,i.e., one for food and the other one for water.
+    In the specific project, we set the feeder to start beeping when the microcontroller used in the project ,i.e., Arduino Uno
+    
+    receives signal through the webpage. The instruction is given by the user through the webpage. The internet connection is 
+    
+    provided to the project through Arduino Uno which is attached to the Ethernet shield. The Ethernet shield is connected to 
+    
+    the laptop through LAN(Local Area Network) wire. The pet will receive instruction as soon as the buzzer beeps on the 
+    
+    command of the user.  Once the comes closer to the device, the ultrasonic sensor measures the distance of the pet from 
+    
+    the sensor and when the pet comes at the suitable distance both servo motors are triggered ,i.e., one for food and the 
+    
+    other one for water.
 
 
 Hardware Components used:
